@@ -12,3 +12,22 @@
     4. Soma + 3
     5. Multiplicação * 3
     6. Apertos de mãos 
+
+- **Questão 2)** Faça um código com os seguintes comandos:
+  1. Crie uma estrutura contendo as seguintes propriedades:
+      - codigo, do tipo int
+      - nome, do tipo string de até 100 caracteres
+      - valor, do tipo double
+      - quantidade, do tipo int
+      - categoria, do tipo char 
+        - Exemplos: [E - eletrodomestico, F- ferramenta, V- vestuário];
+
+  2. Crie a seguinte função: void lerProduto(Produtos *p); - Recebe um ponteiro para produto e preenche os dados de um produto, solicitados ao usuário e lidos do teclado.
+
+  3. Crie a seguinte função: gerarCodigo(Produto *p, Produto produtos[]) - recebe um ponteiro para produto e um vetor de produtos e gera um código único para o produto.
+
+  4. Crie a seguinte função: void preencherProdutos(int quantidade, Produto produtos[quantidade]); - recebe a quantidade de produtos a serem cadastrados e um vetor de produtos. Em seguida, solicita ao usuário que informe os dados de cada produto e os preenche. (reutilize a função lerProdutos, para cada produto a ser preenchido pelo usuário.).
+
+  5. Crie a seguinte função: void exibirProduto(Produto p); - recebe um produto e exibe os dados de um produto.
+
+  6. Crie a seguinte função: void exibirProdutos(int quantidade, Produto produtos[quantidade]); - recebe a quantidade de produtos a serem exibidos e um vetor de produtos. Em seguida, exibe os dados de cada produto. (Reutilize a função exibirProduto, para cada produto a ser exibido.)
